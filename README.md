@@ -1,5 +1,7 @@
 # Flights Booking
 
-Angular example application
+Angular example application.
 
 Images from https://unsplash.com/.
+
+![Example](./Screenshot.jpeg)
