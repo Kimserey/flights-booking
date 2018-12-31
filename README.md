@@ -4,4 +4,4 @@ Angular example application.
 
 Images from https://unsplash.com/.
 
-![Example](./Screenshot.jpeg)
+![Example](./screenshot.JPG)
