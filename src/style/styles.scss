@@ -1,13 +1,32 @@
 @import 'variables';
 @import 'node_modules/bootstrap/scss/bootstrap';
 
-.landing-background-image {
-  background-image: url(/assets/img/greece.jpg);
+.landing-image {
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh/3);
-  min-height: 200px;
-  max-height: 500px;
-  max-width: 1440px;
+
+  &-hero {
+    background-image: url(/assets/img/greece.jpg);
+    height: calc(100vh/3);
+    min-height: 200px;
+    max-height: 500px;
+    max-width: 1440px;
+  }
+  
+  &-card {
+    width:200px;
+
+    &-1 {
+      background-image: url(/assets/img/singapore.jpg);
+    }
+
+    &-2 {
+      background-image: url(/assets/img/venice.jpg);
+    }
+
+    &-3 {
+      background-image: url(/assets/img/maldives.jpg);
+    }
+  }
 }
