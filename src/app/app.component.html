@@ -1,6 +1,7 @@
 <nav class="navbar navbar-dark bg-primary">
   <a class="navbar-brand" href="#">Flights Booking</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+    aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
@@ -24,29 +25,32 @@
   <div class="bg-primary text-white px-3 py-2 rounded">
     <div>
       <div class="dropdown d-inline">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="trip" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
           Round trip
         </button>
-        <div class="dropdown-menu" aria-labelledby="trip">
+        <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Round trip</a>
           <a class="dropdown-item" href="#">One-way</a>
           <a class="dropdown-item" href="#">Multi-city</a>
         </div>
       </div>
       <div class="dropdown d-inline">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="passenger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
           1 passenger
         </button>
-        <div class="dropdown-menu" aria-labelledby="passenger">
+        <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Adults</a>
           <a class="dropdown-item" href="#">Children</a>
         </div>
       </div>
       <div class="dropdown d-inline">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="seat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
           Economy
         </button>
-        <div class="dropdown-menu" aria-labelledby="seat">
+        <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Economy</a>
           <a class="dropdown-item" href="#">Business</a>
           <a class="dropdown-item" href="#">First Class</a>
@@ -54,7 +58,28 @@
       </div>
     </div>
     <div class="row">
-      
+      <div class="col-6">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="From" aria-label="From">
+          <input type="text" class="form-control" placeholder="To" aria-label="To">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">
+              <i class="fas fa-calendar-alt"></i>
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Departure" aria-label="Username" aria-describedby="basic-addon1">
+          <input type="text" class="form-control" placeholder="Return" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      </div>
     </div>
     <div></div>
   </div>
